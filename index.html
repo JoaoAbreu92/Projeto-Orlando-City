@@ -5,19 +5,19 @@
 	<meta charset="utf-8">
 	<title>site aleatório</title>
 	<link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
 	<link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
 	<div class="container-fluid">
 		<header>
-
+			<!--Container da logo do site-->
 			<div class="container-fluid">
 				<img id="logo" src="./img/ocl.png" alt="Logo-da-página">
 			</div>
-			
+			<!--Container do top com os times da liga-->
 			<div class="header-black">
-
 				<div class="container">
 					<ul class="pull-right">
 						<li class="club-01"><a href="#"></a></li>
@@ -45,6 +45,7 @@
 					</ul>
 				</div>
 			</div>
+			<!--Menu do navbar com o buscador-->
 			<div class="container">
 				<div class="row">
 					<nav id="menu" class="pull-right">
@@ -52,8 +53,15 @@
 							<li><a href=""> Tickets</a></li>
 							<li><a href=""> News</a></li>
 							<li><a href=""> Schedule</a></li>
-							<li>
-								<input type="search" placeholder="search...">
+							<li class="search">
+								<!--O searche em bootstrap-->
+								<div class="input-group">
+									<input type="search" class="" placeholder="search...">
+									<span class="input-group-btn">
+										<button class="btn btn-default" type="button"><i
+												class="fa fa-search"></i></button>
+									</span>
+								</div>
 							</li>
 						</ul>
 					</nav>
@@ -61,7 +69,12 @@
 
 			</div>
 		</header>
-
+		<section>
+			<div id="banner">
+				<h1>Orlando City<small>Orlando City Soccer Club</small></h1>
+			</div>
+			<div id="news" clas></div>
+		</section>
 
 	</div>
 

@@ -1,8 +1,9 @@
 header {
     width: 100%;
     height: 150px;
-    background-color: #5e299a;
-
+    background-color: rgba(94, 41, 154, .9);
+    z-index: 2;
+    position: relative;
 }
 
 .container-fluid {
@@ -23,83 +24,160 @@ header .header-black li {
     display: inline-block;
     margin: 8px 6px;
 }
+
 #menu {
-    margin: 26px 0;
+    margin: 12px 0;
+    top: 8px;
 }
-#menu li{
+
+#menu li {
     display: inline-block;
 }
+
 #menu li a {
     color: #fff;
     font-size: 17px;
     padding: 10px 25px;
+    text-decoration: none;
+    transition: .3s ease-in;
 }
+
+#menu li a:hover {
+    font-size: 18px;
+    transition: .1s ease-in;
+}
+
+#menu li.search {
+    width: 182px;
+}
+
+#menu li.search .input-group {
+    top: 11px;
+}
+
+#menu li.search input {
+    background-color: #4e267c;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    height: 35px;
+    line-height: 35px;
+    opacity: 0.5;
+    transition: 1s ease;
+}
+
+#menu li.search input:hover {
+    cursor: pointer;
+    filter: blur(0.1);
+    transition: 1s ease;
+    opacity: 1;
+}
+
+#menu li.search ::-webkit-input-placeholder {
+    color: #fff;
+}
+
+#menu li.search button {
+    background: none;
+    border: none;
+    position: absolute;
+    right: 2px;
+    top: 2px;
+}
+
+#menu li.search button i {
+    font-size: 15px;
+    color: rgba(255, 255, 255, .5);
+}
+
 header .header-black li .club-01 {
     background-position: 0px 0px;
 }
+
 header .header-black li.club-02 {
     background-position: -48px 0px;
 }
+
 header .header-black li.club-03 {
     background-position: -89px 0px;
 }
+
 header .header-black li.club-04 {
     background-position: -139px 0px;
 }
+
 header .header-black li.club-05 {
     background-position: -189px 0px;
 }
+
 header .header-black li.club-06 {
     background-position: -239px 0px;
 }
+
 header .header-black li.club-07 {
     background-position: -289px 0px;
 }
+
 header .header-black li.club-08 {
     background-position: -335px 0px;
 }
+
 header .header-black li.club-09 {
     background-position: -380px 0px;
 }
+
 header .header-black li.club-010 {
     background-position: -429px 0px;
 }
+
 header .header-black li.club-011 {
     background-position: -479px 0px;
 }
+
 header .header-black li.club-012 {
     background-position: -529px 0px;
 }
+
 header .header-black li.club-013 {
     background-position: -579px 0px;
 }
+
 header .header-black li.club-014 {
     background-position: -629px 0px;
 }
+
 header .header-black li.club-015 {
     background-position: -675px 0px;
 }
+
 header .header-black li.club-016 {
     background-position: -722px 0px;
 }
+
 header .header-black li.club-017 {
     background-position: -765px 0px;
 }
+
 header .header-black li.club-018 {
     background-position: -808px 0px;
 }
+
 header .header-black li.club-019 {
     background-position: -855px 0px;
 }
+
 header .header-black li.club-020 {
     background-position: -899px 0px;
 }
+
 header .header-black li.club-021 {
     background-position: -949px 0px;
 }
+
 header .header-black li.club-022 {
     background-position: -999px 0px;
 }
+
 header .header-black li a {
     width: 32px;
     height: 32px;
@@ -110,5 +188,30 @@ header #logo {
     position: absolute;
     margin-top: 20px;
     margin-left: 100px;
+}
+
+#banner {
+    width: 100%;
+    height: 728px;
+    position: relative;
+    background: url('../img/Banner-OC.jpg') no-repeat;
+    top: -120px;
+
+}
+
+
+#banner h1 {
+    color: #fff;
+    top: 300px;
+    position: relative;
+    font-size: 92px;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, .45);
+    margin-left: 50px;
+}
+
+#banner h1 small {
+    display: block;
+    font-size: 32px;
+    color: #fff;
 
 }
