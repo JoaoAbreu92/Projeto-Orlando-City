@@ -43,8 +43,9 @@ header .header-black li {
 }
 
 #menu li a:hover {
-    font-size: 18px;
+    background-color: #4e267c;
     transition: .1s ease-in;
+    border-radius: 10px;
 }
 
 #menu li.search {
