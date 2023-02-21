@@ -308,7 +308,7 @@ header #logo {
 
 #cta .btn:hover {
     filter: blur(0.1);
-    transition: 1s ease;
+    transition: .4s ease;
     opacity: 0.8;
     border-radius: 10px;
 }
@@ -328,4 +328,45 @@ header #logo {
 #cta .row-max-400 {
     margin: 0 auto;
     max-width: 400px;
+}
+
+footer {
+    margin-top: 110px;
+}
+
+footer .row {
+    width: 100%;
+}
+
+footer .row-cinza-claro {
+    height: 200px;
+    background-color: #171f26;
+}
+
+footer .row-cinza-escuro {
+    height: 60px;
+    background-color: #11171d;
+    border-top: #242d37 1px solid;
+}
+
+footer .text-roxo {
+    color: #623291;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+}
+
+footer .pull-left {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    color: #656565;
+    cursor: pointer;
+}
+
+footer .row p {
+    line-height: 60px;
+    margin-bottom: 0;
+}
+
+footer .logotipo {
+    margin-top: 28px ;
 }
