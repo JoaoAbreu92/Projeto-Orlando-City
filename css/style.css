@@ -339,7 +339,7 @@ footer .row {
 }
 
 footer .row-cinza-claro {
-    height: 200px;
+    height: 230px;
     background-color: #171f26;
 }
 
@@ -368,5 +368,98 @@ footer .row p {
 }
 
 footer .logotipo {
-    margin-top: 28px ;
+    margin-top: 28px;
+}
+
+footer .col-popular-post,
+footer .col-links,
+footer .col-get-in-touch {
+    margin-top: 40px;
+
+}
+
+footer .row-cols h4 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    color: #fff;
+    padding-bottom: 17px;
+    border-bottom: #242d37 1px solid;
+}
+
+footer .row-cols h5 {
+    color: #656565;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+footer .row-cols time {
+    color: #fde092;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px
+}
+
+footer .col-links {
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px
+}
+
+footer .col-links a {
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+}
+
+footer .col-links .fa {
+margin: 0 8px;
+}
+
+footer .col-get-in-touch address {
+    color: #656565;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+footer .col-get-in-touch address span {
+    display: inline-block;
+}
+
+footer .col-get-in-touch address i {
+    position: relative;
+    top: -14px;
+}
+
+footer .col-get-in-touch i {
+    color: #9b9b9b;
+    font-size: 20px;
+    margin: 0 6px;
+}
+
+footer .col-get-in-touch p {
+    line-height: 50px ;
+}
+
+footer .list-sociais {
+    margin-top: 4px;
+}
+
+footer .list-sociais a {
+    display: block;
+    border: #9b9b9b 1px solid;
+    width: 28px;
+    height: 28px;
+    line-height: 28px;
+    border-radius: 14px;
+    text-align: center;
+}
+
+footer .list-sociais li {
+    display: inline-block;
+    margin-left: 5px;
+}
+
+footer .list-sociais i {
+    font-size: 16px;
+    margin: 6px auto;
 }
