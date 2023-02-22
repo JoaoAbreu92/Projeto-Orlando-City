@@ -243,7 +243,6 @@ header #logo {
 }
 
 #news .bnews {
-    padding: 2px;
     margin-top: 30px;
 }
 
@@ -254,9 +253,15 @@ header #logo {
     margin-bottom: 0;
 }
 
-#news bnews time {
+#news .bnews time {
     color: #a7a7a7;
-    font-size: 17px;
+    font-size: 16px;
+}
+#news .bnews .item-inner {
+    padding: 10px;
+}
+#news .bnews .item-inner img {
+    width: 100%;
 }
 
 #estatistica {

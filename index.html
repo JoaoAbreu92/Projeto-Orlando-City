@@ -7,6 +7,8 @@
 	<link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
 	<link rel="stylesheet" href="./css/style.css">
+	<link rel="stylesheet" href="./lib/owl-carousel/owl.carousel.css">
+	<link rel="stylesheet" href="./lib/owl-carousel/owl.theme.css">
 </head>
 
 <body>
@@ -80,26 +82,62 @@
 					<hr>
 				</div>
 
-				<div class="row bnews">
-					<div class="col-md-3 ">
-						<img src="./img/noticia-thumb.jpg" alt="imagem 01">
-						<h3>Orlando City Aquires Goalkeeper Joe Banetik from Toronto FC</h3>
-						<time>February 16, 2023</time>
+				<div class="row bnews owl-carousel owl-theme">
+					<div class="item">
+						<div class="item-inner">
+							<img src="./img/noticia-thumb.jpg" alt="imagem 01">
+							<h3>Orlando City Aquires Goalkeeper Joe Banetik from Toronto FC</h3>
+							<time>February 16, 2023</time>
+						</div>
 					</div>
-					<div class="col-md-3">
-						<img src="./img/noticia-thumb.jpg" alt="imagem 02">
-						<h3>Orlando City Aquires Goalkeeper Joe Banetik from Toronto FC</h3>
-						<time>February 16, 2023</time>
+					<div class="item">
+						<div class="item-inner">
+							<img src="./img/noticia-thumb.jpg" alt="imagem 02">
+							<h3>Orlando City Aquires Goalkeeper Joe Banetik from Toronto FC</h3>
+							<time>February 16, 2023</time>
+						</div>
 					</div>
-					<div class="col-md-3">
-						<img src="./img/noticia-thumb.jpg" alt="imagem 03">
-						<h3>Orlando City Aquires Goalkeeper Joe Banetik from Toronto FC</h3>
-						<time>February 16, 2023</time>
+					<div class="item">
+						<div class="item-inner">
+							<img src="./img/noticia-thumb.jpg" alt="imagem 03">
+							<h3>Orlando City Aquires Goalkeeper Joe Banetik from Toronto FC</h3>
+							<time>February 16, 2023</time>
+						</div>
 					</div>
-					<div class="col-md-3">
-						<img src="./img/noticia-thumb.jpg" alt="imagem 04">
-						<h3>Orlando City Aquires Goalkeeper Joe Banetik from Toronto FC</h3>
-						<time>February 16, 2023</time>
+					<div class="item">
+						<div class="item-inner">
+							<img src="./img/noticia-thumb.jpg" alt="imagem 04">
+							<h3>Orlando City Aquires Goalkeeper Joe Banetik from Toronto FC</h3>
+							<time>February 16, 2023</time>
+						</div>
+					</div>
+					<div class="item">
+						<div class="item-inner">
+							<img src="./img/noticia-thumb.jpg" alt="imagem 04">
+							<h3>Orlando City Aquires Goalkeeper Joe Banetik from Toronto FC</h3>
+							<time>February 16, 2023</time>
+						</div>
+					</div>
+					<div class="item">
+						<div class="item-inner">
+							<img src="./img/noticia-thumb.jpg" alt="imagem 04">
+							<h3>Orlando City Aquires Goalkeeper Joe Banetik from Toronto FC</h3>
+							<time>February 16, 2023</time>
+						</div>
+					</div>
+					<div class="item">
+						<div class="item-inner">
+							<img src="./img/noticia-thumb.jpg" alt="imagem 04">
+							<h3>Orlando City Aquires Goalkeeper Joe Banetik from Toronto FC</h3>
+							<time>February 16, 2023</time>
+						</div>
+					</div>
+					<div class="item">
+						<div class="item-inner">
+							<img src="./img/noticia-thumb.jpg" alt="imagem 04">
+							<h3>Orlando City Aquires Goalkeeper Joe Banetik from Toronto FC</h3>
+							<time>February 16, 2023</time>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -222,21 +260,38 @@
 	</div>
 
 	<script src="lib/jquery/jquery.min.js"></script>
+	<script src="./lib/owl-carousel/owl.carousel.min.js"></script>
 	<script src="lib/bootstrap/js/bootstrap.min.js"></script>
 	<script>
 		$(document).ready(function () {
 
-			
-
-			$("#input-search").on("focus",function(){
+			$("#input-search").on("focus", function () {
 
 				$("li.search").addClass("ativo");
 
-			}).on("blur",function(){
+			}).on("blur", function () {
 
 				$("li.search").removeClass("ativo");
 			});
-			
+
+			$(".bnews").owlCarousel({
+				loop: true,
+				margin: 2,
+				nav: true,
+				navText: ["Anterior","Próximo"],
+				responsive: {
+					0: {
+						item: 1
+					},
+					720: {
+						item: 3
+					},
+					1000: {
+						item: 4
+					},
+					
+				}
+			})
 		});
 	</script>
 </body>
