@@ -78,10 +78,62 @@
 				<div class="container">
 					<div class="row text-center">
 						<h2>Videos</h2>
-						<hr>
+						<hr><br>
 					</div>
 					<div class="row">
-						<p>Videos...</p>
+						<video src="./video/highlights.mp4"  controls poster="./img/highlights.jpg"></video>
+					</div>
+					<div id="news" class="container">
+						<div class="row bnews owl-carousel owl-theme">
+							<div class="item">
+								<div class="item-inner">
+									<img src="./img/highlights.jpg" data-video="highlights.mp4" alt="imagem 01">
+									<h3>highlights</h3>
+								</div>
+							</div>
+							<div class="item">
+								<div class="item-inner">
+									<img src="./img/Orlando_City_Foundation_2015.jpg" data-video="Orlando_City_Foundation_2015.mp4" alt="imagem 02">
+									<h3>Orlando City Foundation</h3>
+								</div>
+							</div>
+							<div class="item">
+								<div class="item-inner">
+									<img src="./img/highlights.jpg" data-video="highlights.mp4" alt="imagem 01">
+									<h3>highlights</h3>
+								</div>
+							</div>
+							<div class="item">
+								<div class="item-inner">
+									<img src="./img/Orlando_City_Foundation_2015.jpg" data-video="Orlando_City_Foundation_2015.mp4" alt="imagem 02">
+									<h3>Orlando City Foundation</h3>
+								</div>
+							</div>
+							<div class="item">
+								<div class="item-inner">
+									<img src="./img/highlights.jpg" data-video="highlights.mp4" alt="imagem 01">
+									<h3>highlights</h3>
+								</div>
+							</div>
+							<div class="item">
+								<div class="item-inner">
+									<img src="./img/Orlando_City_Foundation_2015.jpg" data-video="Orlando_City_Foundation_2015.mp4" alt="imagem 02">
+									<h3>Orlando City Foundation</h3>
+								</div>
+							</div>
+							<div class="item">
+								<div class="item-inner">
+									<img src="./img/highlights.jpg" data-video="highlights.mp4" alt="imagem 01">
+									<h3>highlights</h3>
+								</div>
+							</div>
+							<div class="item">
+								<div class="item-inner">
+									<img src="./img/Orlando_City_Foundation_2015.jpg" data-video="Orlando_City_Foundation_2015.mp4" alt="imagem 02">
+									<h3>Orlando City Foundation</h3>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -165,36 +217,16 @@
 	<script src="lib/jquery/jquery.min.js"></script>
 	<script src="./lib/owl-carousel/owl.carousel.min.js"></script>
 	<script src="lib/bootstrap/js/bootstrap.min.js"></script>
+	<script src="js/efeitos.js"></script>
 	<script>
-		$(document).ready(function () {
+		$(function(){
 
-			$("#input-search").on("focus", function () {
+			$(".bnews .item").on("click",function(){
 
-				$("li.search").addClass("ativo");
+				$("video").attr("src","mp4/"+$(this).data('video'));
 
-			}).on("blur", function () {
-
-				$("li.search").removeClass("ativo");
 			});
-
-			$(".bnews").owlCarousel({
-				loop: true,
-				margin: 2,
-				nav: true,
-				navText: ["Anterior","Próximo"],
-				responsive: {
-					0: {
-						item: 1
-					},
-					720: {
-						item: 3
-					},
-					1000: {
-						item: 4
-					},
-					
-				}
-			})
+			
 		});
 	</script>
 </body>
