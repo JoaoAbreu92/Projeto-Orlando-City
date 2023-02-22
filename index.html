@@ -56,7 +56,7 @@
 							<li class="search">
 								<!--O searche em bootstrap-->
 								<div class="input-group">
-									<input type="search" class="" placeholder="search...">
+									<input type="search" id="input-search" placeholder="search...">
 									<span class="input-group-btn">
 										<button class="btn btn-default" type="button"><i
 												class="fa fa-search"></i></button>
@@ -171,7 +171,7 @@
 								</div>
 								<!-- Segunda lista do footer-->
 								<div class="col-md-4 col-links">
-									
+
 									<h4>LINKS</h4>
 									<ul class="list-unstyled">
 										<li><a href="#"><i class="fa fa-angle-right"></i>Tickets</a></li>
@@ -184,10 +184,11 @@
 
 									<h4>GET IN TOUCH</h4>
 									<address>
-									<i class="fa fa-map-marker"></i><span> E. Soutch Street, Suit 510 <br> Orlando, FL 32801</span>
+										<i class="fa fa-map-marker"></i><span> E. Soutch Street, Suit 510 <br> Orlando,
+											FL 32801</span>
 									</address>
 									<p><a href="tel:1855ORLANDOCITY"><i class="fa fa-phone"></i> 1.855.ORL.CITY</a></p>
-								
+
 									<ul class="list-unstyled list-sociais">
 										<li>
 											<a href="#" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
@@ -199,7 +200,7 @@
 											<a href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a>
 										</li>
 										<li>
-											<a href="#" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+											<a href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a>
 										</li>
 									</ul>
 								</div>
@@ -222,7 +223,22 @@
 
 	<script src="lib/jquery/jquery.min.js"></script>
 	<script src="lib/bootstrap/js/bootstrap.min.js"></script>
+	<script>
+		$(document).ready(function () {
 
+			
+
+			$("#input-search").on("focus",function(){
+
+				$("li.search").addClass("ativo");
+
+			}).on("blur",function(){
+
+				$("li.search").removeClass("ativo");
+			});
+			
+		});
+	</script>
 </body>
 
 </html>

@@ -50,8 +50,12 @@ header .header-black li {
 
 #menu li.search {
     width: 182px;
+    transition-timing-function: cubic-bezier(1,-.91,.91,1);
+    transition-duration: 1s;
 }
-
+#menu li.search.ativo{
+    width: 300px;
+}
 #menu li.search .input-group {
     top: 11px;
 }
@@ -65,6 +69,9 @@ header .header-black li {
     line-height: 35px;
     opacity: 0.5;
     transition: 1s ease;
+}
+#menu li.search.ativo input{
+    width: 300px;
 }
 
 #menu li.search input:hover {
@@ -411,7 +418,7 @@ footer .col-links a {
 }
 
 footer .col-links .fa {
-margin: 0 8px;
+    margin: 0 8px;
 }
 
 footer .col-get-in-touch address {
@@ -437,7 +444,7 @@ footer .col-get-in-touch i {
 }
 
 footer .col-get-in-touch p {
-    line-height: 50px ;
+    line-height: 50px;
 }
 
 footer .list-sociais {
