@@ -1,49 +1,308 @@
-/*tamanho padrão*/
+/*tamanho padrão tablets fullHD*/
 @media only screen and (max-width: 1920px) {
-    #btn-bars, #btn-search {
-        display: none;
-    }
+   .btn-footer {
+    display: none;
+   }
 }
+
 /*tamanho padrão tablets fullHD*/
 @media only screen and (max-width: 1200px) {
     .header-black ul {
         display: none;
     }
-    #btn-bars, #btn-search {
+
+    #btn-bars,
+    #btn-search {
         display: none;
     }
 }
 
 /*tamanho padrão para tablets HD*/
 @media only screen and (max-width: 1000px) {
-    .header-black ul, #menu {
+
+    .header-black ul,
+    #menu {
         display: none;
     }
-    #btn-bars, #btn-search {
-    color: #fff;
-    font-size: 22px;
-    position: absolute;
-    top: 7px;
-    background: none;
-    border: none;
-    display: block;
-}
-#btn-bars {
-    left: 7px;
-}
-#btn-search {
-    right: 7px;
-}
-}
 
+    #btn-bars,
+    #btn-search {
+        color: #fff;
+        font-size: 22px;
+        position: absolute;
+        top: 7px;
+        background: none;
+        border: none;
+        display: block;
+        background-size: cover;
+    }
 
+    #btn-bars,
+    #btn-search:hover {
+        transition: .5s ease;
+        color: white;
+        border-radius: 5px;
+    }
+
+    #btn-bars {
+        left: 7px;
+    }
+
+    #btn-search {
+        right: 7px;
+    }
+
+    #news .bnews {
+        margin: 0 auto;
+    }
+
+    #estatistica {
+        height: inherit;
+    }
+
+    #estatistica p {
+        margin-bottom: 40px;
+        margin-top: 40px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    #cta {
+        margin-top: 70px;
+    }
+
+    #cta hr {
+        border-width: 4px;
+    }
+
+    #cta h2 {
+        font-size: 32px;
+        margin-left: 15px;
+        margin-right: 15p
+    }
+
+    /*footer*/
+    footer {
+        margin-top: 60px;
+    }
+
+    .copy-mobile p {
+        font-size: 10px;
+        line-height: 0;
+    }
+
+    .copy-mobile .pull-left {
+        float: inherit !important;
+    }
+
+    footer .row p:first-child {
+        margin-top: 10px;
+    }
+
+    footer .row p {
+        line-height: 20px;
+        text-align: center;
+    }
+
+    footer .text-roxo {
+        margin-right: 20px;
+    }
+
+    footer .row {
+        margin: 0;
+    }
+
+    footer .row-cinza-claro {
+        height: 160px;
+    }
+
+    footer .list-sociais {
+        position: absolute;
+        width: 100%;
+        left: 190px;
+        top: 40px;
+    }
+
+    footer .col-md-10 {
+        padding: 0;
+    }
+
+    footer .list-sociais a {
+        width: 60px;
+        height: 60px;
+    }
+
+    footer .list-sociais i {
+        font-size: 35px;
+        margin-top: 9px;
+    }
+
+    footer .btn-footer {
+        width: 100%;
+        margin-top: -15px;
+        background-color: #11171d;
+        height: 42px;
+    }
+
+    footer .btn-footer i {
+        margin-top: 4px;
+    }
+}
 
 /*tamanho padrão para smartphones */
 @media only screen and (max-width: 480px) {
-    .header-black ul, #menu {
+
+    .header-black ul,
+    #menu {
         display: none;
     }
+
+    #banner {
+        height: 350px;
+        background-size: cover;
+        background-position: 0;
+        text-align: center;
+    }
+
     #banner h1 {
-        font-size: 20px;
+        top: 180px;
+        font-size: 48px;
+        margin-left: 0;
+    }
+
+    #banner h1 small {
+        font-size: 22px;
+    }
+
+    #news h2 {
+        font-size: 32px;
+
+    }
+
+    #news .bnews {
+        margin: 0 auto;
+    }
+
+    .bnews {
+        text-align: center;
+    }
+
+
+    #news .item .item-inner img {
+        width: 80%;
+    }
+
+    #btn-news-prev,
+    #btn-news-next {
+        background: none;
+        border: none;
+        color: #5e2699;
+        font-size: 48px;
+        display: block;
+        position: absolute;
+        z-index: 4;
+        outline: 0;
+    }
+
+    #btn-news-prev {
+        top: 125px;
+        left: 15px;
+    }
+
+    #btn-news-next {
+        top: 125px;
+        right: 15px;
+    }
+
+    #estatistica {
+        height: inherit;
+    }
+
+    #estatistica p {
+        margin-bottom: 40px;
+        margin-top: 40px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    #cta {
+        margin-top: 70px;
+    }
+
+    #cta hr {
+        border-width: 4px;
+    }
+
+    #cta h2 {
+        font-size: 32px;
+        margin-left: 15px;
+        margin-right: 15p
+    }
+
+    footer {
+        margin-top: 60px;
+    }
+
+    .copy-mobile p {
+        font-size: 10px;
+        line-height: 0;
+    }
+
+    .copy-mobile .pull-left {
+        float: inherit !important;
+    }
+
+    footer .row p:first-child {
+        margin-top: 10px;
+    }
+
+    footer .row p {
+        line-height: 20px;
+        text-align: center;
+    }
+
+    footer .text-roxo {
+        margin-right: 60px;
+
+    }
+
+    footer .row {
+        margin: 0;
+    }
+
+    footer .row-cinza-claro {
+        height: 160px;
+    }
+
+    footer .list-sociais {
+        position: absolute;
+        width: 100%;
+        left: 0;
+        top: 40px;
+    }
+
+    footer .col-md-10 {
+        padding: 0;
+    }
+
+    footer .list-sociais a {
+        width: 60px;
+        height: 60px;
+    }
+
+    footer .list-sociais i {
+        font-size: 35px;
+        margin-top: 6px;
+    }
+
+    footer .btn-footer {
+        width: 100%;
+        margin-top: -15px;
+        background-color: #11171d;
+        height: 42px;
+    }
+
+    footer .btn-footer i {
+        margin-top: 4px;
     }
 }

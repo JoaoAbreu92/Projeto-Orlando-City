@@ -207,6 +207,7 @@ header #logo {
     position: relative;
     background: url('../img/Banner-OC.jpg') no-repeat;
     top: -120px;
+    background-size: cover;
 
 }
 
@@ -467,7 +468,7 @@ footer .list-sociais a {
     width: 28px;
     height: 28px;
     line-height: 28px;
-    border-radius: 14px;
+    border-radius: 30px;
     text-align: center;
 }
 
@@ -496,4 +497,8 @@ video {
 #btn-play-pause {
     margin-top: -50px;
     margin-bottom: 80px;
+}
+
+#btn-bars, #btn-search, #btn-news-prev, #btn-news-next {
+    display: none;
 }
