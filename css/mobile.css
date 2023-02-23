@@ -1,0 +1,49 @@
+/*tamanho padrão*/
+@media only screen and (max-width: 1920px) {
+    #btn-bars, #btn-search {
+        display: none;
+    }
+}
+/*tamanho padrão tablets fullHD*/
+@media only screen and (max-width: 1200px) {
+    .header-black ul {
+        display: none;
+    }
+    #btn-bars, #btn-search {
+        display: none;
+    }
+}
+
+/*tamanho padrão para tablets HD*/
+@media only screen and (max-width: 1000px) {
+    .header-black ul, #menu {
+        display: none;
+    }
+    #btn-bars, #btn-search {
+    color: #fff;
+    font-size: 22px;
+    position: absolute;
+    top: 7px;
+    background: none;
+    border: none;
+    display: block;
+}
+#btn-bars {
+    left: 7px;
+}
+#btn-search {
+    right: 7px;
+}
+}
+
+
+
+/*tamanho padrão para smartphones */
+@media only screen and (max-width: 480px) {
+    .header-black ul, #menu {
+        display: none;
+    }
+    #banner h1 {
+        font-size: 20px;
+    }
+}
