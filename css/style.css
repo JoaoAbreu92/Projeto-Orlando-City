@@ -477,6 +477,18 @@ footer .list-sociais i {
 }
 
 video {
-    margin-bottom: 40px;
+    margin-bottom: 30px;
     width: 60%;
+}
+
+#volume {
+    margin-bottom: 70px;
+    width: 50%;
+    margin-left: 25%;
+
+}
+
+#btn-play-pause {
+    margin-top: -50px;
+    margin-bottom: 80px;
 }
