@@ -50,12 +50,14 @@ header .header-black li {
 
 #menu li.search {
     width: 182px;
-    transition-timing-function: cubic-bezier(1,-.91,.91,1);
+    transition-timing-function: cubic-bezier(1, -.91, .91, 1);
     transition-duration: 1s;
 }
-#menu li.search.ativo{
+
+#menu li.search.ativo {
     width: 300px;
 }
+
 #menu li.search .input-group {
     top: 11px;
 }
@@ -70,7 +72,8 @@ header .header-black li {
     opacity: 0.5;
     transition: 1s ease;
 }
-#menu li.search.ativo input{
+
+#menu li.search.ativo input {
     width: 300px;
 }
 
@@ -257,9 +260,11 @@ header #logo {
     color: #a7a7a7;
     font-size: 16px;
 }
+
 #news .bnews .item-inner {
     padding: 10px;
 }
+
 #news .bnews .item-inner img {
     width: 100%;
 }
@@ -478,7 +483,7 @@ footer .list-sociais i {
 
 video {
     margin-bottom: 30px;
-    width: 60%;
+    width: 100%;
 }
 
 #volume {

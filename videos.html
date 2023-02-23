@@ -5,7 +5,6 @@
 	<meta charset="utf-8">
 	<title>site aleatório</title>
 	<link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
-	
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
 	<link rel="stylesheet" href="./css/style.css">
 	<link rel="stylesheet" href="./lib/owl-carousel/owl.carousel.css">
@@ -86,9 +85,9 @@
 
 					</div>
 					<div class="row ">
-
-						<video src="video/highlights.mp4" controls poster="./img/highlights.jpg"></video>
-						
+						<div class="player">
+							<video src="video/highlights.mp4" controls poster="./img/highlights.jpg"></video>
+						</div>
 						<input type="range" id="volume" min="0" max="1" step="0.01" value="1">
 
 						<button type="button" id="btn-play-pause" class="btn btn-success">PLAY</button>
@@ -235,7 +234,7 @@
 
 			});
 
-			$("#volume").on("mousemove", function(){
+			$("#volume").on("mousemove", function () {
 
 				$("video")[0].volume = parseFloat($(this).val());
 			});
@@ -253,7 +252,6 @@
 					video.pause();
 				}
 
-				
 				$(this).toggleClass("btn-success btn-danger");
 
 			})
