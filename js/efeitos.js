@@ -13,7 +13,7 @@ $(document).ready(function () {
         loop: true,
         margin: 2,
         nav: true,
-        navText: ["Anterior","Próximo"],
+        navText: ["Anterior", "Próximo"],
         responsive: {
             0: {
                 item: 1
@@ -24,7 +24,7 @@ $(document).ready(function () {
             1000: {
                 item: 4
             },
-            
+
         }
     })
 });
