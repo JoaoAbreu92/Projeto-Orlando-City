@@ -5,8 +5,8 @@
     }
 }
 
-/*tamanho padrão tablets fullHD*/
-@media only screen and (max-width: 1180px) {
+/*tirando os times da liga*/
+@media only screen and (max-width: 1200px) {
     .header-black ul {
         display: none;
     }
@@ -17,8 +17,28 @@
     }
 }
 
-/*tamanho padrão para tablets HD*/
+/*tirando os times da liga e mnu */
 @media only screen and (max-width: 1000px) {
+
+    #btn-bars,
+    #btn-,
+    #menu {
+        display: none;
+    }
+}
+
+/*Tablet*/
+@media only screen and (max-width: 800px) {
+
+    .header-black ul,
+    #menu {
+        display: none;
+    }
+
+    #btn-bars,
+    #btn-search {
+        display: none;
+    }
 
     .header-black ul,
     #menu {
@@ -147,7 +167,9 @@
     footer .btn-footer i {
         margin-top: 4px;
     }
+
 }
+
 
 /*tamanho padrão para smartphones */
 @media only screen and (max-width: 480px) {
@@ -302,9 +324,11 @@
         margin-top: -15px;
         background-color: #11171d;
         height: 42px;
+        display: block;
     }
 
     footer .btn-footer i {
         margin-top: 4px;
+        display: block;
     }
 }
