@@ -1,12 +1,12 @@
 /*tamanho padrão tablets fullHD*/
 @media only screen and (max-width: 1920px) {
-   .btn-footer {
-    display: none;
-   }
+    .btn-footer {
+        display: none;
+    }
 }
 
 /*tamanho padrão tablets fullHD*/
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1180px) {
     .header-black ul {
         display: none;
     }
@@ -179,6 +179,8 @@
 
     }
 
+    /*NEWS*/
+
     #news .bnews {
         margin: 0 auto;
     }
@@ -277,7 +279,7 @@
     footer .list-sociais {
         position: absolute;
         width: 100%;
-        left: 0;
+        left: 15px;
         top: 40px;
     }
 
@@ -286,13 +288,13 @@
     }
 
     footer .list-sociais a {
-        width: 60px;
-        height: 60px;
+        width: 50px;
+        height: 50px;
     }
 
     footer .list-sociais i {
-        font-size: 35px;
-        margin-top: 6px;
+        font-size: 30px;
+        margin-top: 9px;
     }
 
     footer .btn-footer {
