@@ -133,7 +133,7 @@
     }
 
     footer .row-cinza-claro {
-        height: 160px;
+        height: 140px;
     }
 
     footer .list-sociais {
@@ -141,6 +141,7 @@
         width: 100%;
         left: 190px;
         top: 40px;
+      
     }
 
     footer .col-md-10 {
@@ -150,10 +151,11 @@
     footer .list-sociais a {
         width: 60px;
         height: 60px;
+        
     }
 
     footer .list-sociais i {
-        font-size: 35px;
+        font-size: 55px;
         margin-top: 9px;
     }
 
