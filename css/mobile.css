@@ -174,12 +174,6 @@
 
 /*tamanho padrão para smartphones */
 @media only screen and (max-width: 430px) {
-
-    .header-black ul,
-    #menu {
-        display: none;
-    }
-
     #banner {
         height: 350px;
         background-size: cover;
@@ -332,5 +326,16 @@
     footer .btn-footer i {
         margin-top: -4px;
         display: block;
+    }
+
+    header .header-black {
+        position:fixed;
+        top: 0;
+        width: 100%;
+        
+    }
+
+    header .header-black #btn-search {
+        margin-right: 25px;
     }
 }

@@ -27,16 +27,27 @@ $(document).ready(function () {
 
         }
     });
-    
-    var owl = $ (".bnews").data('owlCarousel');
 
-    $('#btn-news-prev').on("click", function(){
+    var owl = $(".bnews").data('owlCarousel');
+
+    $('#btn-news-prev').on("click", function () {
 
         owl.prev();
     })
 
-    $('#btn-news-next').on("click", function(){
+    $('#btn-news-next').on("click", function () {
 
         owl.next();
-    })
+    });
+
+    $('#page-up').on("click", function (event) {
+
+        $("body").animate({
+            scroll: 0
+        }, 1000);
+
+        event.preventDefault();
+
+    });
+
 });
