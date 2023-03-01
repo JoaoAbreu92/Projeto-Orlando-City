@@ -302,8 +302,8 @@
     footer .list-sociais {
         position: absolute;
         width: 100%;
-        left: 15px;
-        top: 40px;
+        left: 60px;
+        top: 60px;
     }
 
     footer .col-md-10 {
@@ -311,25 +311,26 @@
     }
 
     footer .list-sociais a {
-        width: 50px;
-        height: 50px;
+        width: 35px;
+        height: 35px;
     }
 
     footer .list-sociais i {
-        font-size: 30px;
-        margin-top: 9px;
+        font-size: 25px;
+        margin-top: 5px;
     }
 
     footer .btn-footer {
         width: 100%;
-        margin-top: -15px;
+        margin-top: -10px;
+        margin-left: 30px;
         background-color: #11171d;
-        height: 42px;
+        height: 40px;
         display: block;
     }
 
     footer .btn-footer i {
-        margin-top: 4px;
+        margin-top: -4px;
         display: block;
     }
 }
