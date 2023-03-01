@@ -17,7 +17,7 @@
     }
 }
 
-/*tirando os times da liga e mnu */
+/*tirando os times da liga e menu */
 @media only screen and (max-width: 1000px) {
 
     #btn-bars,
@@ -28,7 +28,7 @@
 }
 
 /*Tablet*/
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 600px) {
 
     .header-black ul,
     #menu {
@@ -101,7 +101,6 @@
         margin-right: 15p
     }
 
-    /*footer*/
     footer {
         margin-top: 60px;
     }
@@ -141,7 +140,7 @@
         width: 100%;
         left: 190px;
         top: 40px;
-      
+
     }
 
     footer .col-md-10 {
@@ -151,7 +150,7 @@
     footer .list-sociais a {
         width: 60px;
         height: 60px;
-        
+
     }
 
     footer .list-sociais i {
@@ -174,7 +173,7 @@
 
 
 /*tamanho padrão para smartphones */
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 430px) {
 
     .header-black ul,
     #menu {
