@@ -28,6 +28,8 @@ $(document).ready(function () {
         }
     });
 
+    /* script carousel de imagens  */
+    
     var owl = $(".bnews").data('owlCarousel');
 
     $('#btn-news-prev').on("click", function () {
@@ -40,14 +42,18 @@ $(document).ready(function () {
         owl.next();
     });
 
-    $('#page-up').on("click", function (event) {
+    /* Script voltar para o menu */
 
-        $("body").animate({
-            scroll: 0
-        }, 1000);
+    $(document).ready(function () {
+        $('#page-up').on("click", function (event) {
 
-        event.preventDefault();
+            $("body").animate({
+                scroll: 0
+            }, 1000);
 
+            event.preventDefault();
+
+        });
     });
 
 });
