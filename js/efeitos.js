@@ -28,8 +28,6 @@ $(document).ready(function () {
         }
     });
 
-    /* script carousel de imagens  */
-    
     var owl = $(".bnews").data('owlCarousel');
 
     $('#btn-news-prev').on("click", function () {
@@ -41,8 +39,6 @@ $(document).ready(function () {
 
         owl.next();
     });
-
-    /* Script voltar para o menu */
 
     $(document).ready(function () {
         $('#page-up').on("click", function (event) {

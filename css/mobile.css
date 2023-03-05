@@ -87,6 +87,10 @@
         margin-right: 15px;
     }
 
+    .col-md-4 #estatistica {
+        height: 520px;
+    }
+
     #cta {
         margin-top: 70px;
     }

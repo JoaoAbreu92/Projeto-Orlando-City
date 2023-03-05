@@ -274,14 +274,14 @@ header #logo {
 #estatistica {
     background-color: #5e299a;
     width: 100%;
-    height: 490px;
+    height: 520px;
     text-align: center;
 }
 
 #estatistica p {
     color: #fde092;
     text-transform: uppercase;
-    font-size: 54px;
+    font-size: 64px;
     font-family: 'Times New Roman', Times, serif;
     margin-top: 33px;
 }
@@ -307,7 +307,7 @@ header #logo {
 
 #cta hr {
     border: #fde092 solid 3px;
-    width: 250px;
+    width: 200px;
     margin: 0 auto;
 }
 
@@ -355,10 +355,16 @@ footer {
 
 footer .row {
     width: 100%;
+    margin-left: 0;
+}
+
+footer .row p {
+    line-height: 55px;
+    margin-bottom: 0;
 }
 
 footer .row-cinza-claro {
-    height: 230px;
+    height: 240px;
     background-color: #171f26;
 }
 
@@ -368,12 +374,6 @@ footer .row-cinza-escuro {
     border-top: #242d37 1px solid;
 }
 
-footer .text-roxo {
-    color: #623291;
-    font-family: 'Times New Roman', Times, serif;
-    cursor: pointer;
-}
-
 footer .pull-left {
     font-family: 'Times New Roman', Times, serif;
     font-size: 14px;
@@ -381,9 +381,10 @@ footer .pull-left {
     cursor: pointer;
 }
 
-footer .row p {
-    line-height: 60px;
-    margin-bottom: 0;
+footer .text-roxo {
+    color: #623291;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
 }
 
 footer .logotipo {
@@ -409,16 +410,11 @@ footer .row-cols h5 {
     color: #656565;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
+    margin-bottom: 0;
 }
 
 footer .row-cols time {
     color: #fde092;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px
-}
-
-footer .col-links {
-    color: #fff;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px
 }
@@ -437,7 +433,7 @@ footer .col-get-in-touch address {
     color: #656565;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
-    margin-bottom: 0;
+    margin-bottom: 6;
 }
 
 footer .col-get-in-touch address span {
@@ -455,12 +451,21 @@ footer .col-get-in-touch i {
     margin: 0 6px;
 }
 
+footer .col-get-in-touch a {
+	color: #666;
+}
+
 footer .col-get-in-touch p {
-    line-height: 50px;
+    line-height: 20px;
 }
 
 footer .list-sociais {
     margin-top: 4px;
+}
+
+footer .list-sociais li {
+    display: inline-block;
+    margin-left: 5px;
 }
 
 footer .list-sociais a {
@@ -473,19 +478,9 @@ footer .list-sociais a {
     text-align: center;
 }
 
-footer .list-sociais li {
-    display: inline-block;
-    margin-left: 5px;
-}
-
 footer .list-sociais i {
     font-size: 16px;
-    margin: 6px auto;
-}
-
-video {
-    margin-bottom: 30px;
-    width: 100%;
+    margin: 7px auto;
 }
 
 #volume {
@@ -500,6 +495,18 @@ video {
     margin-bottom: 80px;
 }
 
-#btn-bars, #btn-search, #btn-news-prev, #btn-news-next {
+video {
+    margin-bottom: 30px;
+    width: 60%;
+}
+
+#btn-bars,
+#btn-search,
+#btn-news-prev,
+#btn-news-next {
     display: none;
+}
+
+.page-up {
+    display: none !important;
 }
