@@ -9,6 +9,7 @@ header {
 .container-fluid {
     width: 100%;
     position: relative;
+    padding: 0;
 }
 
 header .header-black {
@@ -199,7 +200,6 @@ header #logo {
     position: absolute;
     margin-top: 20px;
     margin-left: 100px;
-    z-index: 3;
 }
 
 #banner {
