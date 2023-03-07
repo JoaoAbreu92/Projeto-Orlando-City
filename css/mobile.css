@@ -22,6 +22,7 @@
     #btn-search {
         display: none;
     }
+  
 }
 
 /*tirando os times da liga e menu */
@@ -52,13 +53,15 @@
         height: 500px;
         text-align: center;
     }
+
+    
 }
 
 /*Tablet*/
 @media only screen and (max-width: 600px) {
 
     .header-black ul,
-    #menu {
+    #menu  {
         display: none;
     }
 
@@ -222,6 +225,24 @@
     #news h2 {
         font-size: 32px;
 
+    }
+
+    #btn-bars {
+        color: #fff;
+        font-size: 22px;
+        position: absolute;
+        top: 13px;
+        background: none;
+        border: none;
+        display: block;
+        background-size: cover;
+    }
+
+    #btn-search {
+        color: #fff;
+        font: 22px;
+        position: absolute;
+        top: 13px;
     }
 
     /*NEWS*/
@@ -421,12 +442,13 @@
         z-index: 4;
     }
 
-    header #logo {
+    header  #logo {
         position: fixed;
-        top: 50px;
-        height: 76px;
-        left: 25px;
+        top: 19px;
+        height: 118px;
+        left: 11px;
         z-index: 6;
+        transition: cubic-bezier(0.075, 0.82, 0.165, 1);
     }
 
     /*menu mobile*/
@@ -459,7 +481,7 @@
         bottom: 60px;
         background-color: #633492;
         height: 40px;
-        margin-bottom: 390px;
+        margin-bottom: 350px;
         width: 100%;
     }
 
@@ -469,5 +491,23 @@
         color: #fff;
         font-size: 22px;
 
+    }
+
+
+    header #input-search-mobile {
+        transition: 1s;
+        position: fixed;
+        width: 65%;
+        left: 15%;
+        margin-top: 5px;
+        background-color: #000000;
+        border: none;
+        height: 40px;
+        color: #fff;
+        outline: 0;
+    }
+
+    header .open-seach #logo {
+       z-index: 9; 
     }
 }
